@@ -15,7 +15,7 @@ function App() {
       <div className="form" >
         <div style={{ width: "100%", margin: "1rem", display: "flex", justifyContent: "center" }}>
 
-          <Button type="primary" onClick={handleClick}>Is my data GDPR-compliant?</Button>
+          <Button type="primary" onClick={handleClick}>Is it GDPR-compliant?</Button>
         </div>
         <div style={{ width: "100%", margin: "1rem", display: "flex", justifyContent: "center" }}>
           {message ?
